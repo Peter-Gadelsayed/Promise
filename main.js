@@ -18,6 +18,7 @@ const getData = (url) => {
     });
 }
 
+
 getData("https://jsonplaceholder.typicode.com/posts")
     .then(data => {
         let result = JSON.parse(data)
